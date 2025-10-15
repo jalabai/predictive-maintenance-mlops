@@ -133,7 +133,7 @@ Ready for deployment to cloud platforms (AWS, Render, etc.).
 
 ---
 
-## 🎯Experiment Tracking
+## Experiment Tracking
 
 - MLflow stores experiment runs and model versions in the `/mlruns` directory.
 - For multi-user or cloud deployments, configure MLflow to use a remote tracking server.
