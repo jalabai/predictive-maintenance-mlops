@@ -20,20 +20,13 @@ Setup Guide
 git clone https://github.com/jalabai/predictive-maintenance-mlops.git
 cd predictive-maintenance-mlops
 2. Install dependencies
-bash
-Copy code
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 3. Run tests
-bash
-Copy code
 pytest -v -W ignore::DeprecationWarning
 4. Run the FastAPI app locally
-bash
-Copy code
 uvicorn app.main:app --reload
 The API will be available at http://127.0.0.1:8000.
-
 API Endpoints
 POST /predict
 Predict machine failure from sensor data.
