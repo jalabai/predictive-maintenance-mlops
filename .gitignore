@@ -1,0 +1,87 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.db
+*.log
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ----------------------------
+# Data & Models
+# ----------------------------
+data/raw/
+data/processed/
+models/
+*.csv
+*.xlsx
+*.parquet
+
+# ----------------------------
+# MLflow
+# ----------------------------
+mlruns/
+mlartifacts/
+mlflow.log
+
+# ----------------------------
+# FastAPI / Build / Cache
+# ----------------------------
+*.sqlite3
+*.db
+*.pid
+*.egg-info/
+build/
+dist/
+*.egg
+.eggs/
+*.spec
+
+# ----------------------------
+# VSCode / IDEs
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------------
+# System / OS
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Docker / CI
+# ----------------------------
+*.env.docker
+*.env.production
+docker-compose.override.yml
+
+# ----------------------------
+# Pytest
+# ----------------------------
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+
+# ----------------------------
+# Reports / Logs
+# ----------------------------
+logs/
+*.log
+*.out
+*.err

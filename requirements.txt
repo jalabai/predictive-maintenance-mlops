@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+mlflow
+pyyaml
+pytest
+joblib
+httpx
